@@ -8,8 +8,6 @@ function App() {
 
     const root = document.querySelector("html");
     checked ? root?.classList.add("dark") : root?.classList.remove("dark");
-    console.log(root);
-    console.log(checked);
   };
   return (
     <main className="p-2 h-screen dark:bg-primary">
